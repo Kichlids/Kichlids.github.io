@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    /* border-style: solid; */
+}
+
+.icon {
+    display: flex;
+    margin: auto;
+    border-style: solid;
+    border-radius: 40px;
+    height: 200px;
+}
+
+.involvement-wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+}

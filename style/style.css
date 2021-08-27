@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(102, 102, 102, 0.815);
+    background-color: rgba(172, 172, 172, 0.815);
 }
 
 h1 {
@@ -11,6 +11,16 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-size: 40px;
+    text-align: left;
+}
+
+h5 {
+    font-size: 30px;
+    text-align: left;
+}
+
 p {
     font-size: 30px;
 }
@@ -20,7 +30,9 @@ p {
     height: 300%;
     border-style: solid;
     background: url("/img/title-background.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 20px;
 }
 
 .title {
@@ -28,3 +40,9 @@ p {
     text-align: center;
     font-size: 60px;
 }
+
+/* .subtitle {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+} */
