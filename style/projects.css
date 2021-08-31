@@ -5,7 +5,7 @@
 .column {
     flex: 33.33%;
     padding: 5px;
-    /* border-style: solid; */
+    margin-left: 100px;
 }
 
 .icon {
