@@ -11,6 +11,7 @@
 .icon {
     display: flex;
     margin: auto;
+    margin-bottom: 60px;
     border-style: solid;
     border-radius: 40px;
     height: 200px;
@@ -19,4 +20,25 @@
 .involvement-wrapper {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.subnavbar {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.project-list {
+    float: left;
+}
+
+.project-link {
+    display: block;
+    padding: 8px;
+    background-color: #747474;
+    font-size: 40px;
 }

@@ -23,7 +23,7 @@
     </ul>
 
     <div class="title-bar">
-        <h1 class="title">Projects and Involvements</h1>
+        <h1 class="title">For Fun Projects</h1>
     </div>
 
     <div class="row">
@@ -42,84 +42,110 @@
         <div class="column">
             <img class="icon" src="img/ros-logo.jpg">  
         </div>
-        <div class="column">
+        <!-- <div class="column">
             <img class="icon" src="img/inventor-logo.jpg">  
-        </div>
+        </div> -->
     </div>
+
+    <ul class="subnavbar">
+        <li class="project-list" style="float: right;">
+            <button class="project-link" onclick="openProject(event, 'gda')">Game Dev</button>
+        </li>
+        <li class="project-list" style="float: right;">
+            <button class="project-link active-page" onclick="openProject(event, 'scr')">Robotics</button>
+        </li>
+    </ul>
 
     <div class="involvement-wrapper">
-        <h4><a href="https://ou.edu/scr">Sooner Competitive Robotics</a></h4>
+        <div id="scr" class="project-tab">
+            <h4><a href="https://ou.edu/scr">Sooner Competitive Robotics</a></h4>
 
-        <h5>2019-2021 IGVC</h5>
-        <div class="row">
-            <div class="column">
-                <p>Software team member of the Intelligent Ground Vehicle Competition. Developed software that obtains robot's location using a GPS and processes camera images to be used for navigation using Robot Operating System and XBox Kinect.</p>
-                <p>See the <a href="http://www.igvc.org/design/2021/7.pdf">design document</a>.</p>
-            </div>
-            <div class="column">
+            <h5>2019-2021 IGVC</h5>
+            <div class="row">
                 <div class="column">
-                    <img style="width: 60%;" src="img/igvc-team.jpg">
+                    <p>Software team member of the Intelligent Ground Vehicle Competition. Developed software that obtains robot's location using a GPS and processes camera images to be used for navigation using Robot Operating System and XBox Kinect.</p>
+                    <p>See the <a href="http://www.igvc.org/design/2021/7.pdf">design document</a>.</p>
                 </div>
                 <div class="column">
-                    <img style="width: 60%;" src="img/igvc-camera-processed.jpg">
+                    <div class="column">
+                        <img style="width: 60%;" src="img/igvc-team.jpg">
+                    </div>
+                    <div class="column">
+                        <img style="width: 60%;" src="img/igvc-camera-processed.jpg">
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <h5>2018-2019 IEEE Robotics Competition</h5>
-        <div class="row">
-            <div class="column">
-                <p>Captain of the IEEE Robotics Competition team. Developed software that processes images passsed from the camera to identify key objects and set up an I2C communication between Raspberry Pi and Arduino Nanos to control the motors.</p>
-            </div>
-            <div class="column">
+    
+            <h5>2018-2019 IEEE Robotics Competition</h5>
+            <div class="row">
                 <div class="column">
-                    <img style="width: 60%;" src="img/ieee-2018-robot.jpg">
-                </div>
-            </div>
-        </div>
-
-        <h5>2017-2018 IEEE Robotics Competition</h5>
-        <div class="row">
-            <div class="column">
-                <p>Mechanical Lead of the IEEE Robotics Competition team. Designed the entirety of the chassis of the robot as well as its  apparatuses using Autodesk Inventor.</p>
-            </div>
-            <div class="column">
-                <div class="column">
-                    <img style="width: 60%;" src="img/ieee-2017-model.jpg">
+                    <p>Captain of the IEEE Robotics Competition team. Developed software that processes images passsed from the camera to identify key objects and set up an I2C communication between Raspberry Pi and Arduino Nanos to control the motors.</p>
                 </div>
                 <div class="column">
-                    <img style="width: 60%;" src="img/ieee-2017-robot.jpg">
+                    <div class="column">
+                        <img style="width: 60%;" src="img/ieee-2018-robot.jpg">
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <h4><a href="https://gda.ou.edu">Game Dev Association</a></h4>
-
-        <h5>Tower Defense</h5>
-        <div class="row">
-            <div class="column">
-                <p>A variation of tower defense genre developed from scratch in Unity Engine. A unique feature of this game is that the player can create the path and the enemies can destroy them.</p>
-            </div>
-            <div class="column">
+    
+            <h5>2017-2018 IEEE Robotics Competition</h5>
+            <div class="row">
                 <div class="column">
-                    <img style="width: 60%;" src="img/gda-tower-defense.jpg">
+                    <p>Mechanical Lead of the IEEE Robotics Competition team. Designed the entirety of the chassis of the robot as well as its  apparatuses using Autodesk Inventor.</p>
+                </div>
+                <div class="column">
+                    <div class="column">
+                        <img style="width: 60%;" src="img/ieee-2017-model.jpg">
+                    </div>
+                    <div class="column">
+                        <img style="width: 60%;" src="img/ieee-2017-robot.jpg">
+                    </div>
                 </div>
             </div>
         </div>
+        
+        <div id="gda" class="project-tab">
+            <h4><a href="https://gda.ou.edu">Game Dev Association</a></h4>
 
-        <h5>ML Blackjack</h5>
-        <div class="row">
-            <div class="column">
-                <p>Implementation of machine learning in Blackjack. Player plays with a machine learning agent trained with the Q-Learning algorithm against the dealer. Project originally developed for CS 4033 Machine Learning and implemented for Unity Engine with
-                    the added playability aspect for the player.</p>
-            </div>
-            <div class="column">
+            <h5>Tower Defense</h5>
+            <div class="row">
                 <div class="column">
-                    <img style="width: 60%;" src="img/ml-blackjack.jpg">
+                    <p>A variation of tower defense genre developed from scratch in Unity Engine. A unique feature of this game is that the player can create the path and the enemies can destroy them.</p>
+                </div>
+                <div class="column">
+                    <div class="column">
+                        <img style="width: 60%;" src="img/gda-tower-defense.jpg">
+                    </div>
+                </div>
+            </div>
+    
+            <h5>ML Blackjack</h5>
+            <div class="row">
+                <div class="column">
+                    <p>Implementation of machine learning in Blackjack. Player plays with a machine learning agent trained with the Q-Learning algorithm against the dealer. Project originally developed for CS 4033 Machine Learning and implemented for Unity Engine with
+                        the added playability aspect for the player.</p>
+                </div>
+                <div class="column">
+                    <div class="column">
+                        <img style="width: 60%;" src="img/ml-blackjack.jpg">
+                    </div>
+                </div>
+            </div>
+    
+            <h5>Ecosystem Simulator</h5>
+            <div class="row">
+                <div class="column">
+                    <p>Simple ecosystem simulator developed on the Unity Engine consisting of two different species programmed to search for food, water, and reproduce as well as flee from predators on a procedurally generated environment.</p>
+                </div>
+                <div class="column">
+                    <div class="column">
+                        <img style="width: 60%;" src="img/ecosim.jpg">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="projects.js"></script>
 </body>
 </html>
