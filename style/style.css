@@ -40,8 +40,20 @@ p {
     font-size: 60px;
 }
 
-/* .subtitle {
-    color: black;
-    text-align: center;
-    font-size: 30px;
-} */
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 10%;
+    padding: 5px;
+}
+
+.icon {
+    display: flex;
+    margin: auto;
+    margin-bottom: 60px;
+    border-style: solid;
+    border-radius: 40px;
+    height: 200px;
+}
